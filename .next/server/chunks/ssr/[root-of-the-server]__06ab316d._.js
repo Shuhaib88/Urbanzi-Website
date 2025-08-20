@@ -1020,35 +1020,35 @@ function CustomerTestimonial() {
     const testimonials = [
         {
             id: 1,
-            text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+            text: "Working with Urbanzi Solution has been a wonderful experience. They took the time to understand our needs and delivered a solution that was both effective and user-friendly. Their professionalism and personal touch made all the difference.",
             name: "Naruto",
             role: "Startup Founder",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
         },
         {
             id: 2,
-            text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+            text: "The team at Urbanzi Solution genuinely cares about their clients’ success. Their work on our project has been transformative, and their continued support has built a long-term relationship we deeply value.",
             name: "Naruto",
             role: "Startup Founder",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
         },
         {
             id: 3,
-            text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+            text: "Urbanzi Solution didn’t just build us a website, they helped us shape our brand online. The team is approachable, creative, and highly skilled. They made us feel like partners, not just clients.",
             name: "Naruto",
             role: "Startup Founder",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
         },
         {
             id: 4,
-            text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+            text: "What I appreciate most about Urbanzi Solution is their honesty and dedication. They are always available to guide us, explain things clearly, and ensure we are comfortable at every stage of the project. Truly a team you can trust.",
             name: "Naruto",
             role: "Startup Founder",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
         },
         {
             id: 5,
-            text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+            text: "Urbanzi Solution blends technical expertise with a human touch. They not only delivered a top-quality application but also supported us patiently throughout the process. We felt valued and heard at every step.",
             name: "Naruto",
             role: "Startup Founder",
             avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
@@ -1734,45 +1734,45 @@ function SEO() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$latest_post$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/digital_marketing/page.jsx",
-                    lineNumber: 33,
+                    lineNumber: 31,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/digital_marketing/page.jsx",
-                lineNumber: 32,
+                lineNumber: 30,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$customer_testimonial$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/digital_marketing/page.jsx",
-                    lineNumber: 36,
+                    lineNumber: 34,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/digital_marketing/page.jsx",
-                lineNumber: 35,
+                lineNumber: 33,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$frequently_ask_question$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/digital_marketing/page.jsx",
-                    lineNumber: 39,
+                    lineNumber: 37,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/digital_marketing/page.jsx",
-                lineNumber: 38,
+                lineNumber: 36,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$still_have_questions$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/digital_marketing/page.jsx",
-                    lineNumber: 42,
+                    lineNumber: 40,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/digital_marketing/page.jsx",
-                lineNumber: 41,
+                lineNumber: 39,
                 columnNumber: 5
             }, this)
         ]

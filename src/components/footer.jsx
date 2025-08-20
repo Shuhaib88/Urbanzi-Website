@@ -21,13 +21,13 @@ export default function Footer() {
               COMPANY
             </h3>
             <ul className="space-y-2 sm:space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Home</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">About us</a></li>
+              <li><a href="/home" className="text-gray-400 hover:text-white text-sm transition-colors">Home</a></li>
+              <li><a href="/about" className="text-gray-400 hover:text-white text-sm transition-colors">About us</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Services</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Our Clients</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Product</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</a></li>
+              <li><a href="/blog" className="text-gray-400 hover:text-white text-sm transition-colors">Blog</a></li>
+              <li><a href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -37,11 +37,11 @@ export default function Footer() {
               SERVICES
             </h3>
             <ul className="space-y-2 sm:space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Web development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Mobile app development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Software development</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">SEO</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Digital Marketing</a></li>
+              <li><a href="/webdevelopment" className="text-gray-400 hover:text-white text-sm transition-colors">Web development</a></li>
+              <li><a href="/app_development" className="text-gray-400 hover:text-white text-sm transition-colors">Mobile app development</a></li>
+              <li><a href="/software_development" className="text-gray-400 hover:text-white text-sm transition-colors">Software development</a></li>
+              <li><a href="/seo" className="text-gray-400 hover:text-white text-sm transition-colors">SEO</a></li>
+              <li><a href="/digital_marketing" className="text-gray-400 hover:text-white text-sm transition-colors">Digital Marketing</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">ERP Development</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">CRM Development</a></li>
             </ul>

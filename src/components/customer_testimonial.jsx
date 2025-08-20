@@ -2,35 +2,35 @@ export default function CustomerTestimonial() {
   const testimonials = [
     {
       id: 1,
-      text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+      text: "Working with Urbanzi Solution has been a wonderful experience. They took the time to understand our needs and delivered a solution that was both effective and user-friendly. Their professionalism and personal touch made all the difference.",
       name: "Naruto",
       role: "Startup Founder",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
     },
     {
       id: 2,
-      text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+      text: "The team at Urbanzi Solution genuinely cares about their clients’ success. Their work on our project has been transformative, and their continued support has built a long-term relationship we deeply value.",
       name: "Naruto",
       role: "Startup Founder",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
     },
     {
       id: 3,
-      text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+      text: "Urbanzi Solution didn’t just build us a website, they helped us shape our brand online. The team is approachable, creative, and highly skilled. They made us feel like partners, not just clients.",
       name: "Naruto",
       role: "Startup Founder",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
     },
     {
       id: 4,
-      text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+      text: "What I appreciate most about Urbanzi Solution is their honesty and dedication. They are always available to guide us, explain things clearly, and ensure we are comfortable at every stage of the project. Truly a team you can trust.",
       name: "Naruto",
       role: "Startup Founder",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
     },
     {
       id: 5,
-      text: "The design made our website look like it was built by a top-tier design agency. Plus, the customization options are endless. Highly recommend!",
+      text: "Urbanzi Solution blends technical expertise with a human touch. They not only delivered a top-quality application but also supported us patiently throughout the process. We felt valued and heard at every step.",
       name: "Naruto",
       role: "Startup Founder",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"

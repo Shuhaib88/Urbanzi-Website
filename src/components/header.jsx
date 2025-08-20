@@ -5,11 +5,11 @@ import { useState } from "react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
-
+  
   const navItems = [
     { href: "/home", label: "Home" },
     { href: "/about", label: "About Us" },
@@ -20,17 +20,17 @@ export default function Header() {
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact Us" },
   ];
-
+  
   return (
     <header className="px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between max-w-[1500px] w-full mx-auto relative">
       {/* Left - Logo */}
-      <div className="text-white flex flex-col leading-none text-lg sm:text-xl md:text-2xl lg:text-[32px] tracking-wide">
+      <div className="text-white flex flex-col leading-none text-lg sm:text-xl md:text-2xl lg:text-[28px] xl:text-[32px] tracking-wide">
         <span>URBANZI</span>
         <span>SOLUTIONS</span>
       </div>
 
-      {/* Desktop Navigation - Hidden on sm/md */}
-      <nav className="hidden lg:flex flex-1 justify-center">
+      {/* Desktop Navigation - Only visible on xl screens */}
+      <nav className="hidden xl:flex flex-1 justify-center">
         <div className="flex items-center space-x-6 xl:space-x-8">
           {navItems.map((item) => (
             <Link
@@ -44,10 +44,10 @@ export default function Header() {
         </div>
       </nav>
 
-      {/* Mobile Menu Button - Visible on sm/md */}
+      {/* Mobile Menu Button - Visible on sm, md, lg but hidden on xl */}
       <button
         onClick={toggleMobileMenu}
-        className="lg:hidden text-white p-2 hover:bg-gray-800 rounded transition-colors"
+        className="block sm:block md:block lg:block xl:hidden text-white p-2 hover:bg-gray-800 rounded transition-colors"
         aria-label="Toggle mobile menu"
       >
         <div className="w-6 h-5 flex flex-col justify-between">
@@ -57,14 +57,14 @@ export default function Header() {
         </div>
       </button>
 
-      {/* Desktop Button - Hidden on sm/md */}
-      <button className="hidden lg:block bg-white text-black px-4 py-2 xl:px-5 rounded-sm text-xs font-semibold uppercase hover:bg-gray-300 transition-colors">
+      {/* Desktop Button - Only visible on xl screens */}
+      <button className="hidden xl:block bg-white text-black px-4 py-2 xl:px-5 rounded-sm text-xs font-semibold uppercase hover:bg-gray-300 transition-colors">
         Let's Talk
       </button>
 
-      {/* Mobile Dropdown Menu */}
+      {/* Mobile Dropdown Menu - Hidden on xl screens */}
       {isMobileMenuOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-sm border-t border-gray-700 z-50">
+        <div className="xl:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-sm border-t border-gray-700 z-50">
           <nav className="flex flex-col py-4">
             {navItems.map((item) => (
               <Link

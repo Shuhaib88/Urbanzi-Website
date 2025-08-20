@@ -5,9 +5,7 @@ import BeingEnglandsTop from "../../components/being_englands_top";
 import ScaleAcross from "../../components/scale_across";
 import CaseStudy from "../../components/case_study";
 import LatestPost from "../../components/latest_post";
-import CustomerTestimooial from "../../components/customer_testimonial";
-
-// import UrbanziSolution from "../../components/urbanzi_solution";
+import CustomerTestimonial from "../../components/customer_testimonial";
 
 export default function Home() {
   return (
@@ -31,7 +29,7 @@ export default function Home() {
         <LatestPost />
       </div>
       <div >
-        <CustomerTestimooial />
+        <CustomerTestimonial />
       </div>
     </>
   );

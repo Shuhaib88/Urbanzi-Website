@@ -1,8 +1,10 @@
 http://localhost:3000/home
 
-http://localhost:3000/blog
+http://localhost:3000/about
 
 http://localhost:3000/hiring
+
+http://localhost:3000/blog
 
 http://localhost:3000/testimonials
 
@@ -17,4 +19,11 @@ http://localhost:3000/software_development
 http://localhost:3000/seo
 
 http://localhost:3000/digital_marketing
+
+
+
+
+
+
+
 
