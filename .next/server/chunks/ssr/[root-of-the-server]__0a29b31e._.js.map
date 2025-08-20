@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/my-official-next/src/components/test.jsx"],"sourcesContent":["export default function GradientBorderButton() {\r\n  return (\r\n    <div className=\"relative inline-block rounded-lg p-[1px] bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500\">\r\n      <div className=\"px-4 py-1 bg-black/90 rounded-lg text-white\">\r\n        Supercharges Your Entire Dev Workflow with AI\r\n      </div>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBAA8C;;;;;;;;;;;AAKnE","debugId":null}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///D:/my-official-next/src/app/home/page.jsx"],"sourcesContent":["// src/pages/Home.jsx\r\nimport Test from \"../../components/test\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <>\r\n      <div className=\"flex items-center justify-center\">\r\n        <Test />\r\n      </div>\r\n    </>\r\n  );\r\n}\r\n"],"names":[],"mappings":"AAAA,qBAAqB;;;;;AACrB;;;AAEe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;YAAI,WAAU;sBACb,cAAA,8OAAC,0HAAA,CAAA,UAAI;;;;;;;;;;;AAIb","debugId":null}}]
+}

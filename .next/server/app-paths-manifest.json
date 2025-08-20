@@ -1,0 +1,7 @@
+{
+  "/app_development/page": "app/app_development/page.js",
+  "/digital_marketing/page": "app/digital_marketing/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/seo/page": "app/seo/page.js"
+}
