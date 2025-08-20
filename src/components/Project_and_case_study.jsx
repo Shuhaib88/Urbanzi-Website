@@ -115,7 +115,7 @@ export default function ProjectAndCaseStudy() {
               </div>
 
               {/* Stats */}
-              <div className="flex justify-between items-end">
+              <div className="flex gap-36 items-end">
                 <div className="text-center">
                   <div className="text-2xl md:text-3xl font-bold text-white">{project.leads}</div>
                   <div className="text-gray-400 text-sm">Leads delivered</div>

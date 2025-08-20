@@ -15,14 +15,11 @@ export default function BeingEnglandsTop() {
       <div className="relative mt-8 lg:mt-12">
         {/* Text Content */}
         <div className="absolute text-[15px] sm:text-xl lg:text-2xl mb-8 lg:mb-0 lg:mt-5 z-10">
-          <p className="leading-relaxed">
-            Urbanzi is an UK's custom software development company with local<br></br>
-            presence in London that has a strong industry focus on Insurance.<br></br>
-            Urbanzi is an UK's custom software development company with local<br></br>
-            presence in London that has a strong industry focus on Insurance,<br></br>
-            Urbanzi and Location Based Services. Besides being England's top IT<br></br>
-            employer, we have been featured in 2018 Global Outsourcing 100 List and<br></br>
-            recognized by Inc. 5000 as well as GSA UK Awards.
+          <p className="leading-relaxed mt-20">
+            At Urbanzi, we help businesses grow with innovative and <br/>
+            tailored digital solutions. From web development to branding, <br/>
+            we create seamless experiences that elevate your brand. <br/>
+            Let's bring your vision to life with creativity and technology. <br/>
           </p>
         </div>
 
@@ -37,7 +34,7 @@ export default function BeingEnglandsTop() {
       </div>
 
       {/* Buttons Section */}
-      <div className="flex flex-wrap mt-20 sm:-mt-15 md:-mt-15 lg:-mt-15 xl:-mt-15 gap-8 lg:gap-8 ">
+      <div className="flex flex-wrap mt-20 sm:-mt-15 md:-mt-15 lg:-mt-15 xl:-mt-30 gap-8 lg:gap-8 ">
         <button className="bg-white text-black px-6 py-3 lg:px-8 rounded-sm text-xs font-semibold uppercase hover:bg-gray-300 transition-colors">
           Let's Start
         </button>

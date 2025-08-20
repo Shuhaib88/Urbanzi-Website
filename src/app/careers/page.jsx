@@ -1,8 +1,11 @@
-// src\pages\Home.jsx
+import Careers from "../../components/careers_at_urbanzi";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to the Careers Page</h1>
+    <>
+    <div >
+      <Careers />
     </div>
+    </>
   );
 };

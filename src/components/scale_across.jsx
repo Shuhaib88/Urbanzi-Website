@@ -1,4 +1,5 @@
 import React from "react";
+
 const services = [
   {
     title: "App Development",
@@ -47,8 +48,6 @@ const services = [
   },
 ];
 
-const clients = new Array(14).fill("Client Logo");
-
 const MailIcon = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -75,38 +74,33 @@ const MailIcon = ({ className }) => (
 
 export default function ScaleAcross() {
   return (
-    <div className="px-4 mt-12 sm:px-6 lg:px-8">
+    <div className="px-4 mt-12 sm:px-6 lg:px-8 xl:px-10">
       {/* Main Heading */}
-      <div className="flex flex-wrap justify-center font-bold gap-2 sm:gap-3">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+      <div className="flex flex-wrap justify-center font-bold gap-2 sm:gap-3 text-center">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
           Scale across
         </h1>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] bg-clip-text text-transparent">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] bg-clip-text text-transparent">
           Build New Apps
         </h1>
       </div>
       {/* Description */}
-      <div className="font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-4 sm:mt-5">
-        <div className="flex justify-center font-bold text-center px-4">
-          Your success is our success and together we help our society to
-        </div>
-        <div className="flex justify-center font-bold text-center px-4">
-          become a better place to live and work.
-        </div>
+      <div className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-4 sm:mt-5 text-center px-2 sm:px-4">
+        Your success is our success and together we help our society to become a better place to live and work.
       </div>
       {/* Services Grid Section */}
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 sm:gap-6 p-4 sm:p-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-6xl w-full">
+      <div className="py-8 sm:py-12 flex flex-col items-center justify-center gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-6 max-w-7xl w-full px-2 sm:px-0">
           {services.map((service, index) => (
             <div
               key={index}
               className="p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80 transition-all duration-300"
             >
-              <div className="rounded-lg p-4 sm:p-6 bg-black h-45">
+              <div className="rounded-lg p-4 sm:p-5 md:p-6 bg-black min-h-[180px] sm:min-h-[200px]">
                 <div className="flex justify-center mb-3 sm:mb-4">
-                  <MailIcon className="w-5 h-5 sm:w-6 sm:h-6" />
+                  <MailIcon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7" />
                 </div>
-                <h3 className="text-white text-base sm:text-lg font-semibold text-center mb-2">
+                <h3 className="text-white text-sm sm:text-base md:text-lg font-semibold text-center mb-2">
                   {service.title}
                 </h3>
                 <p className="text-gray-400 text-xs sm:text-sm text-center">
@@ -116,38 +110,11 @@ export default function ScaleAcross() {
             </div>
           ))}
         </div>
-        <button className="mt-4 sm:mt-6 px-4 py-2 sm:px-5 bg-gray-800 text-white text-xs sm:text-sm rounded-md border border-gray-700 hover:bg-gray-700 transition">
+        <button className="mt-4 sm:mt-6 px-4 py-2 sm:px-5 sm:py-2.5 bg-gray-800 text-white text-xs sm:text-sm rounded-md border border-gray-700 hover:bg-gray-700 transition">
           See More
         </button>
       </div>
-      {/* Happy Clients Section */}
-      <div className="mt-10 sm:mt-12">
-        <div className="flex flex-wrap justify-center font-bold gap-2 sm:gap-3 mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-            Some Of Our
-          </h1>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] bg-clip-text text-transparent">
-            Happy Client
-          </h1>
-        </div>
-        {/* Client Grid */}
-        <div className="min-h-screen flex flex-col items-center gap-4 sm:gap-6 p-4 sm:p-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6 max-w-6xl w-full">
-            {clients.map((client, index) => (
-              <div
-                key={index}
-                className="p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80 transition-all duration-300"
-              >
-                <div className="rounded-lg p-4 sm:p-6 bg-black min-h-[100px] flex items-center justify-center">
-                  <span className="text-white text-sm">
-                    {client} {index + 1}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

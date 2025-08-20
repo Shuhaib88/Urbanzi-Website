@@ -39,30 +39,36 @@ export default function BringYourIdeas() {
       </div>
 
 
-      <div className="whoweare_bg max-w-[350px] sm:max-w-[700px] md:max-w-[1000px] lg:max-w-7xl xl:max-w-full py-16">
-        <div className="ml-20 sm:ml-20 md:ml-20 lg:ml-30 xl:ml-36">
-          {/* Main Heading */}
-          <div className="flex">
-            <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-[#d4af81] via-[#ff99cc] to-[#D57EEB] bg-clip-text text-transparent leading-tight">
-            </h1>
-          </div>
-          <h2 className="text-white sm: md:text-4xl lg:text-4xl xl:text-5xl mt-5 mb-6">
-            Who We Are ?
-          </h2>
-          
-          {/* Description Text */}
-          <p className="text-white text-lg md:text-xl mb-8 leading-relaxed max-w-xl mx-auto">
-            Welcome! At Urbanzi Solutions, we believe your business deserves to be seen and celebrated online. 
-            Proudly based in Trivandrum and serving all of Kerala, our team combines creativity, empathy, 
-            and advanced technology to help real businesses like yours grow, connect, and succeed on the web. 
-            We know that navigating the digital world can be stressful, so we walk beside you at every step—making 
-            the journey simple and rewarding.
-          </p>
+      <div className="whoweare_bg max-w-full py-16 px-4 sm:px-6 md:px-12 lg:px-16 xl:px-20">
+        <div className="flex flex-col ml-22 md:ml-10 lg:ml-10 xl:ml-25 md:flex-row items-center gap-8 max-w-[1300px] mx-auto">
 
-          {/* Contact Us Button */}
-          <button className=" bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors duration-200">
-            Contact Us
-          </button>
+          {/* Phone Images Section */}
+          <div className="flex-shrink-0  z-10 md:-ml-12">
+            <img 
+              src="/images/7414952039825e6718860f5d12a9f425bb515730.png" 
+              alt="Mobile app mockups" 
+              className="w-36 h-28 sm:w-44 sm:h-36 md:w-80 md:h-72 lg:w-100 lg:h-80 xl:w-150 xl:h-100 object-contain"
+            />
+          </div>
+
+          {/* Content Section */}
+          <div className="flex-1 max-w-2xl  z-20 ml-0 md:-ml-20">
+            <h2 className="text-white text-3xl md:text-4xl lg:text-4xl xl:text-5xl mb-6 font-bold">
+              Who We Are
+            </h2>
+            
+            <p className="text-white text-lg md:text-xl mb-8 leading-relaxed">
+              Welcome! At Urbanzi Solutions, we believe your business deserves to be seen and celebrated online. 
+              Proudly based in Trivandrum and serving all of Kerala, our team combines creativity, empathy, 
+              and advanced technology to help real businesses like yours grow, connect, and succeed on the web. 
+              We know that navigating the digital world can be stressful, so we walk beside you at every step—making 
+              the journey simple and rewarding.
+            </p>
+            
+            <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-400 transition-colors duration-200">
+              Contact Us
+            </button>
+          </div>
         </div>
       </div>
 

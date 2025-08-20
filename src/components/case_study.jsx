@@ -44,7 +44,7 @@ const CaseStudySection = () => {
   const currentStudy = caseStudies[currentIndex];
 
   return (
-    <div className="mt-0 md:-mt-10 lg:-mt-30 xl:-mt-70 px-4 sm:px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center w-full">
         {/* Increased gradient box padding for responsive screens */}
         <div className="p-[4px] sm:p-[5px] md:p-[6px] lg:p-[4px] xl:p-[3px] mt-6 sm:mt-8 lg:mt-10 bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] max-w-6xl w-full rounded-xl sm:rounded-2xl hover:bg-gradient-to-r">
