@@ -1,6 +1,6 @@
 export default function Limitless() {
   return (
-    <div className="px-4 sm:px-6 lg:px-8 py-8 lg:py-12 max-w-[1500px] w-full mx-auto">
+    <div className="gradient_bg_l px-4 sm:px-6 lg:px-8 py-8 lg:py-12 max-w-[1500px] w-full mx-auto">
       {/* Main Heading */}
       <div className="flex justify-center">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mt-4 sm:mt-6 lg:mt-10 bg-gradient-to-r from-[#ffcc99] via-[#ff99cc] to-[#cc99ff] bg-clip-text text-transparent text-center leading-tight">

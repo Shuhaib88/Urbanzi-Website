@@ -1,4 +1,10 @@
+"use client";
+import { useRouter } from 'next/navigation';
+
 export default function TurnYourApp() {
+
+  const router = useRouter();
+  
   return (
     <div>
 
@@ -80,7 +86,9 @@ export default function TurnYourApp() {
               success.
             </p>
             
-            <button className="bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-400 transition-colors duration-200">
+            <button 
+            onClick={() => router.push('/contact')}
+            className="bg-white text-black px-8 py-3 rounded-full text-lg font-medium hover:bg-gray-400 transition-colors duration-200">
               Contact Us
             </button>
           </div>

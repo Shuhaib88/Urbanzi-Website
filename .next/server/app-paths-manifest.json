@@ -1,6 +1,7 @@
 {
   "/about/page": "app/about/page.js",
   "/app_development/page": "app/app_development/page.js",
+  "/blog/page": "app/blog/page.js",
   "/careers/page": "app/careers/page.js",
   "/clients/page": "app/clients/page.js",
   "/contact/page": "app/contact/page.js",
@@ -8,6 +9,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/home/page": "app/home/page.js",
   "/page": "app/page.js",
+  "/product/page": "app/product/page.js",
   "/seo/page": "app/seo/page.js",
   "/software_development/page": "app/software_development/page.js",
   "/webdevelopment/page": "app/webdevelopment/page.js"

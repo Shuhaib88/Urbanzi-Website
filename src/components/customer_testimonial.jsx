@@ -48,7 +48,7 @@ export default function CustomerTestimonial() {
         </div>
 
         {/* Testimonials Layout */}
-        <div className="relative max-w-6xl mx-auto gradient_bg_l">
+        <div className="relative max-w-6xl mx-auto ">
           
           {/* Mobile & Tablet Layout (sm and md) - Single Column */}
           <div className="lg:hidden">
