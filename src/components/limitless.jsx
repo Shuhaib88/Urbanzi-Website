@@ -18,10 +18,10 @@ export default function Limitless() {
 
       {/* Buttons */}
       <div className="flex sm:flex-row justify-center items-center gap-4 sm:gap-6 lg:gap-8 xl:gap-12 mt-6 sm:mt-8 lg:mt-10">
-        <button className="sm:w-auto md:w-auto lg:w-auto bg-white text-black px-6 py-3 sm:px-8 lg:px-10 rounded-sm text-xs sm:text-sm font-semibold uppercase hover:bg-gray-300 transition-colors duration-300">
+        <button className="w-auto h-10 bg-white text-black px-6 py-3 sm:px-8 lg:px-10 rounded-sm text-xs sm:text-sm font-semibold uppercase hover:bg-gray-400 transition-colors duration-300 flex items-center justify-center">
           Let's Start
         </button>
-        <button className="sm:w-auto md:w-auto lg:w-auto bg-white text-black px-6 py-3 sm:px-8 lg:px-10 rounded-sm text-xs sm:text-sm font-semibold uppercase hover:bg-gray-300 transition-colors duration-300">
+        <button className="w-auto h-10 bg-white text-black px-6 py-3 sm:px-8 lg:px-10 rounded-sm text-xs sm:text-sm font-semibold uppercase hover:bg-gray-400 transition-colors duration-300 flex items-center justify-center">
           Learn More
         </button>
       </div>
