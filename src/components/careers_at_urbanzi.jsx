@@ -1,7 +1,12 @@
+"use client";
+import { useRouter } from 'next/navigation';
 
 export default function CareersPage() {
+  // Move useRouter inside the component
+  const router = useRouter();
+
   return (
-    <div className="min-h-screen  text-white">
+    <div className="min-h-screen text-white">
       {/* Hero Section */}
       <div className="px-4 sm:px-6 md:px-8 py-8 sm:py-12 md:py-16">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
@@ -93,6 +98,7 @@ export default function CareersPage() {
                 <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">Grow your Career with best team</p>
                 <p className="text-gray-300 mb-6 sm:mb-8 text-sm sm:text-base">We are looking for new talents. Join our team.</p>
                 <button 
+                onClick={() => router.push('/contact')}
                 className="bg-purple-600 hover:bg-purple-700 px-6 sm:px-8 py-2 sm:py-3 rounded-md font-medium text-sm sm:text-base transition-colors">
                 Contact
                 </button>
