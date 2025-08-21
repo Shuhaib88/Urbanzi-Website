@@ -23,9 +23,9 @@ export default function Footer() {
             <ul className="space-y-2 sm:space-y-3">
               <li><a href="/home" className="text-gray-400 hover:text-white text-sm transition-colors">Home</a></li>
               <li><a href="/about" className="text-gray-400 hover:text-white text-sm transition-colors">About us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Services</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Our Clients</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Product</a></li>
+              {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Services</a></li> */}
+              {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Our Clients</a></li> */}
+              {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Product</a></li> */}
               <li><a href="/blog" className="text-gray-400 hover:text-white text-sm transition-colors">Blog</a></li>
               <li><a href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</a></li>
             </ul>
@@ -53,8 +53,8 @@ export default function Footer() {
               HELP
             </h3>
             <ul className="space-y-2 sm:space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Customer Support</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Delivery Details</a></li>
+              <li><a href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Customer Support</a></li>
+              <li><a href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Delivery Details</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms & Conditions</a></li>
               <li><a href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a></li>
             </ul>

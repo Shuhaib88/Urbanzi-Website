@@ -1,7 +1,10 @@
 export default function OurMission() {
   return (
-    <div className="bg-black ml-5 sm:10 md:ml-20 lg:ml-40 xl:ml-60 sm:max-w-2xl md:max-w-2xl lg:max-w-3xl xl:max-w-6xl w-auto">
-      <div className="mt-0 text-4xl font-bold">
+    
+    <div className="bg-black">
+      <div className="bg-black h-10 sm:h-12 md:h-15 lg:h-20 xl:h-22"></div>
+      <div className="ml-5 sm:10 md:ml-20 lg:ml-40 xl:ml-60 sm:max-w-2xl md:max-w-2xl lg:max-w-3xl xl:max-w-6xl w-auto">
+      <div className="text-4xl font-bold">
         <h1 className="">Our Mission</h1>
       </div>
 
@@ -28,5 +31,7 @@ export default function OurMission() {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 }
