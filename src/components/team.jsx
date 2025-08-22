@@ -1,10 +1,10 @@
 export default function Team() {
   const members = [
-    { name: "GOVARDHAN", role: "Co-Founder & Project Head", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder & Project Manager(Operations Lead)", img: "/images/person.png" },
-    { name: "ABHISHEK", role: "Co-Founder & Design Head", img: "/images/person.png" },
-    { name: "SHUHAIB", role: "Founding Member & Project Development Head", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
+    { name: "GOVARDHAN", role: "Co-Founder \n Project Head \n \n", img: "/images/person.png" },
+    { name: "ABHIJITH", role: "Co-Founder \n Project Manager (Operations Lead)", img: "/images/person.png" },
+    { name: "ABHISHEK", role: "Co-Founder \n Design Head \n \n", img: "/images/person.png" },
+    { name: "SHUHAIB", role: "Founding Member \n Project Development Head \n \n \n", img: "/images/person.png" },
+    { name: "ABHIJITH", role: "Co-Founder \n Project Head \n \n \n", img: "/images/person.png" },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function Team() {
                     <h3 className="text-white text-sm font-bold tracking-[0.15em] mb-1">
                       {m.name}
                     </h3>
-                    <p className="text-white/90 text-xs">{m.role}</p>
+                    <p className="text-white/90 text-xs" style={{ whiteSpace: "pre-line" }}>{m.role}</p>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default function Team() {
                     <h3 className="text-white text-sm font-bold tracking-[0.15em] mb-1">
                       {m.name}
                     </h3>
-                    <p className="text-white/90 text-xs">{m.role}</p>
+                    <p className="text-white/90 text-xs" style={{ whiteSpace: "pre-line" }}>{m.role}</p>
                   </div>
                 </div>
               </div>
