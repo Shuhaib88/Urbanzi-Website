@@ -37,7 +37,7 @@ export default function Header() {
     },
     { id: "clients", href: "#", label: "Our Client" },
     { id: "careers", href: "/careers", label: "Careers" },
-    { id: "product", href: "#", label: "Product" },
+    { id: "product", href: "/hiring", label: "Hiring" },
     { id: "blog", href: "/blog", label: "Blog" },
     { id: "contact", href: "/contact", label: "Contact Us" },
   ];

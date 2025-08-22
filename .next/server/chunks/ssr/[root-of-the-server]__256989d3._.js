@@ -691,22 +691,22 @@ function OurValues() {
         {
             icon: "⚙️",
             title: "Innovation",
-            description: "At Vibefy, we embrace a culture of continuous innovation. Our mission is to push the boundaries, explore new frontiers, and challenge the status quo by testing our limits and thinking outside the box."
+            description: "At Urbanzi, we foster a mindset of continuous growth and creativity. We strive to break boundaries, explore new possibilities, and challenge the ordinary by pushing our limits and embracing bold ideas."
         },
         {
             icon: "🤝",
             title: "Collaboration",
-            description: "At Vibefy, we embrace a culture of continuous innovation. Our mission is to push the boundaries, explore new frontiers, and challenge the status quo by testing our limits and thinking outside the box."
+            description: "At Urbanzi, teamwork drives everything we do. We believe that great ideas flourish through shared efforts, diverse perspectives, and a commitment to working together toward common goals."
         },
         {
             icon: "👤",
             title: "Customer Focus",
-            description: "At Vibefy, we embrace a culture of continuous innovation. Our mission is to push the boundaries, explore new frontiers, and challenge the status quo by testing our limits and thinking outside the box."
+            description: "Our customers are at the heart of Urbanzi. We listen, adapt, and deliver solutions that truly meet their needs—going beyond expectations to create lasting value and trust."
         },
         {
             icon: "⭐",
             title: "Excellence",
-            description: "At Vibefy, we embrace a culture of continuous innovation. Our mission is to push the boundaries, explore new frontiers, and challenge the status quo by testing our limits and thinking outside the box."
+            description: "We are committed to excellence in every detail. From innovative thinking to flawless execution, Urbanzi aims to set higher standards and consistently deliver exceptional results."
         },
         {
             icon: "🤝",

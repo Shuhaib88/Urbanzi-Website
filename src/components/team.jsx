@@ -1,9 +1,9 @@
 export default function Team() {
   const members = [
-    { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
+    { name: "GOVARDHAN", role: "Co-Founder & Project Head", img: "/images/person.png" },
+    { name: "ABHIJITH", role: "Co-Founder & Project Manager(Operations Lead)", img: "/images/person.png" },
+    { name: "ABHISHEK", role: "Co-Founder & Design Head", img: "/images/person.png" },
+    { name: "SHUHAIB", role: "Founding Member & Project Development Head", img: "/images/person.png" },
     { name: "ABHIJITH", role: "Co-Founder & Project Head", img: "/images/person.png" },
   ];
 

@@ -12,9 +12,9 @@ export default function BeingEnglandsTop() {
       </div>
 
       {/* Content Section */}
-      <div className="relative mt-8 lg:mt-12">
+      <div className="relative -mt-10">
         {/* Text Content */}
-        <div className="absolute text-[15px] sm:text-xl lg:text-2xl mb-8 lg:mb-0 lg:mt-5 z-10">
+        <div className="absolute text-[15px] sm:text-xl lg:text-2xl mb-8 lg:mb-0  z-10">
           <p className="leading-relaxed mt-20">
             At Urbanzi, we help businesses grow with innovative and <br/>
             tailored digital solutions. From web development to branding, <br/>
@@ -34,7 +34,7 @@ export default function BeingEnglandsTop() {
       </div>
 
       {/* Buttons Section */}
-      <div className="flex flex-wrap mt-20 sm:-mt-15 md:-mt-15 lg:-mt-15 xl:-mt-30 gap-8 lg:gap-8 ">
+      <div className="flex flex-wrap mt-5 sm:-mt-15 md:-mt-15 lg:-mt-25 xl:-mt-50 gap-8 lg:gap-8 ">
         <button className="bg-white text-black px-6 py-3 lg:px-8 rounded-sm text-xs font-semibold uppercase hover:bg-gray-300 transition-colors">
           Let's Start
         </button>

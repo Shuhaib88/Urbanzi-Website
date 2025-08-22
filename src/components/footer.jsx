@@ -11,7 +11,7 @@ export default function Footer() {
               URBANZI<br />SOLUTIONS
             </h2>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Clarity gives you the blocks and components you need to create a truly professional website.
+              We build modern, high-performing websites using the latest tools and expert design.
             </p>
           </div>
 
@@ -28,6 +28,8 @@ export default function Footer() {
               {/* <li><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Product</a></li> */}
               <li><a href="/blog" className="text-gray-400 hover:text-white text-sm transition-colors">Blog</a></li>
               <li><a href="/contact" className="text-gray-400 hover:text-white text-sm transition-colors">Contact</a></li>
+              <li><a href="/testimonials" className="text-gray-400 hover:text-white text-sm transition-colors">Testimonial</a></li>
+              <li><a href="/hiring" className="text-gray-400 hover:text-white text-sm transition-colors">Hiring</a></li>
             </ul>
           </div>
 

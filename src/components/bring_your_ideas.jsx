@@ -51,7 +51,7 @@ export default function BringYourIdeas() {
           {/* Phone Images Section */}
           <div className="flex-shrink-0  z-10 md:-ml-12">
             <img 
-              src="/images/7414952039825e6718860f5d12a9f425bb515730.png" 
+              src="/images/59480418e2b10fe1de147e0230ade8ef95e622e7.png" 
               alt="Mobile app mockups" 
               className="w-36 h-28 sm:w-44 sm:h-36 md:w-80 md:h-72 lg:w-100 lg:h-80 xl:w-150 xl:h-100 object-contain"
             />

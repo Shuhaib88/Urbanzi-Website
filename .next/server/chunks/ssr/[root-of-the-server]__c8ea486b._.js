@@ -109,8 +109,8 @@ function Header() {
         },
         {
             id: "product",
-            href: "#",
-            label: "Product"
+            href: "/hiring",
+            label: "Hiring"
         },
         {
             id: "blog",

@@ -157,6 +157,25 @@
   min-height: 55vh;
   width: 100vw;
   background: 
+    /* Center radial gradient */
+    radial-gradient(circle at center, 
+      rgba(150, 50, 120, 0.3) 0%, 
+      rgba(80, 30, 70, 0.5) 25%, 
+      rgba(40, 15, 35, 0.7) 50%, 
+      rgba(20, 8, 18, 0.9) 75%, 
+      #000000 100%
+    ),
+    /* Base background */
+    #000000;
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: 100% 100%, 100% 100%;
+}
+
+.footer_bg_with_dot {
+  min-height: 55vh;
+  width: 100vw;
+  background: 
     /* Dot fade mask */
     radial-gradient(circle at center, 
       transparent 0%, 
