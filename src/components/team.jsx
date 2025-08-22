@@ -1,10 +1,12 @@
 export default function Team() {
   const members = [
-    { name: "GOVARDHAN", role: "Co-Founder \n Project Head \n \n", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder \n Project Manager (Operations Lead)", img: "/images/person.png" },
-    { name: "ABHISHEK", role: "Co-Founder \n Design Head \n \n", img: "/images/person.png" },
+    { name: "GOVARDHAN", role: "Co-Founder \n Project Head \n \n \n", img: "/images/person.png" },
+    { name: "ABHIJITH", role: "Co-Founder \n Project Manager (Operations Lead) \n \n", img: "/images/person.png" },
+    { name: "ABHISHEK", role: "Co-Founder \n Design Head \n \n \n", img: "/images/person.png" },
     { name: "SHUHAIB", role: "Founding Member \n Project Development Head \n \n \n", img: "/images/person.png" },
-    { name: "ABHIJITH", role: "Co-Founder \n Project Head \n \n \n", img: "/images/person.png" },
+    { name: "ANOOP", role: "Co-Founder \n Partner \n \n \n", img: "/images/person.png" },
+    { name: "SAJIN", role: "Co-Founder \n Partner \n \n \n", img: "/images/person.png" },
+    { name: "ABHIRAM", role: "Founding Member \n Designer \n \n \n", img: "/images/person.png" },
   ];
 
   return (
@@ -21,7 +23,7 @@ export default function Team() {
         <div className="flex flex-col items-center gap-8">
           {/* Top row - 3 cards */}
           <div className="flex flex-wrap justify-center gap-6">
-            {members.slice(0, 3).map((m, i) => (
+            {members.slice(0, 4).map((m, i) => (
               <div
                 key={i}
                 className="w-[200px] rounded-3xl bg-gradient-to-r from-[#755530e5] via-[#714b9485] to-[#5c1552bd] p-1"
@@ -54,7 +56,7 @@ export default function Team() {
 
           {/* Bottom row - 2 cards */}
           <div className="flex flex-wrap justify-center gap-6">
-            {members.slice(3, 5).map((m, i) => (
+            {members.slice(4, 7).map((m, i) => (
               <div
                 key={i + 3}
                 className="w-[200px] rounded-3xl bg-gradient-to-br from-[#755530e5] via-[#714b9485] to-[#5c1552bd] p-1"

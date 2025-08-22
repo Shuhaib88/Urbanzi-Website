@@ -88,7 +88,7 @@ export default function OurValues() {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 max-w-[350px] sm:max-w-[700px] md:max-w-[725px] lg:max-w-4xl xl:max-w-5xl mx-auto w-auto">
+      {/* <div className="flex justify-center mt-10 max-w-[350px] sm:max-w-[700px] md:max-w-[725px] lg:max-w-4xl xl:max-w-5xl mx-auto w-auto">
       <img 
         src="/images/image1.png" 
         alt="" 
@@ -114,7 +114,7 @@ export default function OurValues() {
         alt="" 
         className="w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
       />
-    </div>
+    </div> */}
     </div>
   );
 }

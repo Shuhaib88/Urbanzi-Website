@@ -449,17 +449,17 @@ function Team() {
     const members = [
         {
             name: "GOVARDHAN",
-            role: "Co-Founder \n Project Head \n \n",
+            role: "Co-Founder \n Project Head \n \n \n",
             img: "/images/person.png"
         },
         {
             name: "ABHIJITH",
-            role: "Co-Founder \n Project Manager (Operations Lead)",
+            role: "Co-Founder \n Project Manager (Operations Lead) \n \n",
             img: "/images/person.png"
         },
         {
             name: "ABHISHEK",
-            role: "Co-Founder \n Design Head \n \n",
+            role: "Co-Founder \n Design Head \n \n \n",
             img: "/images/person.png"
         },
         {
@@ -468,8 +468,18 @@ function Team() {
             img: "/images/person.png"
         },
         {
-            name: "ABHIJITH",
-            role: "Co-Founder \n Project Head \n \n \n",
+            name: "ANOOP",
+            role: "Co-Founder \n Partner \n \n \n",
+            img: "/images/person.png"
+        },
+        {
+            name: "SAJIN",
+            role: "Co-Founder \n Partner \n \n \n",
+            img: "/images/person.png"
+        },
+        {
+            name: "ABHIRAM",
+            role: "Founding Member \n Designer \n \n \n",
             img: "/images/person.png"
         }
     ];
@@ -484,14 +494,14 @@ function Team() {
                         "Those Who Make Up Our",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/src/components/team.jsx",
-                            lineNumber: 16,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this),
                         "Talented Team"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/team.jsx",
-                    lineNumber: 14,
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -499,7 +509,7 @@ function Team() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-wrap justify-center gap-6",
-                            children: members.slice(0, 3).map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: members.slice(0, 4).map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-[200px] rounded-3xl bg-gradient-to-r from-[#755530e5] via-[#714b9485] to-[#5c1552bd] p-1",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "bg-gradient-to-r from-[#755530e5] via-[#714b9485] to-[#5c1552bd] rounded-3xl p-6",
@@ -511,7 +521,7 @@ function Team() {
                                                         className: "absolute inset-0 rounded-full bg-gradient-to-b from-[#755530e5] via-[#714b9485] to-[#5c1552bd]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 32,
+                                                        lineNumber: 34,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -520,7 +530,7 @@ function Team() {
                                                         className: "relative z-10 h-full w-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 33,
+                                                        lineNumber: 35,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -528,13 +538,13 @@ function Team() {
                                                         children: "in"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 39,
+                                                        lineNumber: 41,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/team.jsx",
-                                                lineNumber: 30,
+                                                lineNumber: 32,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -545,7 +555,7 @@ function Team() {
                                                         children: m.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 47,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -556,34 +566,34 @@ function Team() {
                                                         children: m.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 48,
+                                                        lineNumber: 50,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/team.jsx",
-                                                lineNumber: 44,
+                                                lineNumber: 46,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/team.jsx",
-                                        lineNumber: 29,
+                                        lineNumber: 31,
                                         columnNumber: 17
                                     }, this)
                                 }, i, false, {
                                     fileName: "[project]/src/components/team.jsx",
-                                    lineNumber: 25,
+                                    lineNumber: 27,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/team.jsx",
-                            lineNumber: 23,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-wrap justify-center gap-6",
-                            children: members.slice(3, 5).map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: members.slice(4, 7).map((m, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "w-[200px] rounded-3xl bg-gradient-to-br from-[#755530e5] via-[#714b9485] to-[#5c1552bd] p-1",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "bg-gradient-to-br from-[#755530e5] via-[#714b9485] to-[#5c1552bd] rounded-3xl p-6",
@@ -595,7 +605,7 @@ function Team() {
                                                         className: "absolute inset-0 rounded-full bg-gradient-to-b from-[#755530e5] via-[#714b9485] to-[#5c1552bd]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 65,
+                                                        lineNumber: 67,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -604,7 +614,7 @@ function Team() {
                                                         className: "relative z-10 h-full w-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 68,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -612,13 +622,13 @@ function Team() {
                                                         children: "in"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 72,
+                                                        lineNumber: 74,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/team.jsx",
-                                                lineNumber: 63,
+                                                lineNumber: 65,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -629,7 +639,7 @@ function Team() {
                                                         children: m.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 80,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -640,46 +650,46 @@ function Team() {
                                                         children: m.role
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/team.jsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 83,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/team.jsx",
-                                                lineNumber: 77,
+                                                lineNumber: 79,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/team.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 64,
                                         columnNumber: 17
                                     }, this)
                                 }, i + 3, false, {
                                     fileName: "[project]/src/components/team.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/components/team.jsx",
-                            lineNumber: 56,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/team.jsx",
-                    lineNumber: 21,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/team.jsx",
-            lineNumber: 12,
+            lineNumber: 14,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/team.jsx",
-        lineNumber: 11,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
@@ -722,232 +732,176 @@ function OurValues() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full bg-black text-white py-16",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-4xl mx-auto px-6",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col lg:flex-row justify-between items-start mb-12",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl md:text-5xl font-bold mb-6 lg:mb-0",
-                                children: "Our Value"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/our_values.jsx",
-                                lineNumber: 35,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-white/90 text-[30px] max-w-md lg:text-left",
-                                children: "We are committed to making money management accessible for everyone, regardless of financial background."
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/our_values.jsx",
-                                lineNumber: 38,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 34,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col gap-6",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col md:flex-row justify-center gap-6 ",
-                                children: values.slice(0, 2).map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex-1 max-w-md p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "rounded-lg bg-black h-full",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center mb-4 p-4 sm:p-6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-2xl mr-3",
-                                                            children: value.icon
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-4xl mx-auto px-6",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col lg:flex-row justify-between items-start mb-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-4xl md:text-5xl font-bold mb-6 lg:mb-0",
+                            children: "Our Value"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/our_values.jsx",
+                            lineNumber: 35,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-white/90 text-[30px] max-w-md lg:text-left",
+                            children: "We are committed to making money management accessible for everyone, regardless of financial background."
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/our_values.jsx",
+                            lineNumber: 38,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/our_values.jsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col gap-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col md:flex-row justify-center gap-6 ",
+                            children: values.slice(0, 2).map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex-1 max-w-md p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "rounded-lg bg-black h-full",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center mb-4 p-4 sm:p-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-2xl mr-3",
+                                                        children: value.icon
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/our_values.jsx",
+                                                        lineNumber: 52,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "relative w-full",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "text-xl font-semibold relative after:content-[''] after:block after:w-full after:h-0.5 after:bg-white/30 after:mt-2",
+                                                            children: value.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/our_values.jsx",
-                                                            lineNumber: 52,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "relative w-full",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "text-xl font-semibold relative after:content-[''] after:block after:w-full after:h-0.5 after:bg-white/30 after:mt-2",
-                                                                children: value.title
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/our_values.jsx",
-                                                                lineNumber: 54,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/our_values.jsx",
-                                                            lineNumber: 53,
-                                                            columnNumber: 19
+                                                            lineNumber: 54,
+                                                            columnNumber: 21
                                                         }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/our_values.jsx",
-                                                    lineNumber: 51,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-white/80 text-sm leading-relaxed px-4 sm:px-6 pb-4 sm:pb-6",
-                                                    children: value.description
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/our_values.jsx",
-                                                    lineNumber: 59,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/our_values.jsx",
-                                            lineNumber: 50,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, index, false, {
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/our_values.jsx",
+                                                        lineNumber: 53,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/our_values.jsx",
+                                                lineNumber: 51,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-white/80 text-sm leading-relaxed px-4 sm:px-6 pb-4 sm:pb-6",
+                                                children: value.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/our_values.jsx",
+                                                lineNumber: 59,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/our_values.jsx",
-                                        lineNumber: 49,
-                                        columnNumber: 13
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/our_values.jsx",
-                                lineNumber: 47,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col md:flex-row justify-center gap-6",
-                                children: values.slice(2, 5).map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex-1 max-w-md sm:max-w-md md:max-w-xs lg:max-w-xs xl:max-w-xs p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "rounded-lg p-6 bg-black h-full",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "flex items-center mb-4",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-2xl mr-3",
-                                                            children: value.icon
+                                        lineNumber: 50,
+                                        columnNumber: 15
+                                    }, this)
+                                }, index, false, {
+                                    fileName: "[project]/src/components/our_values.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/our_values.jsx",
+                            lineNumber: 47,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex flex-col md:flex-row justify-center gap-6",
+                            children: values.slice(2, 5).map((value, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex-1 max-w-md sm:max-w-md md:max-w-xs lg:max-w-xs xl:max-w-xs p-[1px] bg-gradient-to-r from-[#FCCB90] via-[#ff99cc] to-[#D57EEB] rounded-lg hover:bg-gradient-to-r hover:from-yellow-400/80 hover:via-yellow-400/80 hover:to-yellow-400/80",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "rounded-lg p-6 bg-black h-full",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "flex items-center mb-4",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-2xl mr-3",
+                                                        children: value.icon
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/our_values.jsx",
+                                                        lineNumber: 74,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "relative w-full",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "text-xl font-semibold relative after:content-[''] after:block after:w-full after:h-0.5 after:bg-white/30 after:mt-2",
+                                                            children: value.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/our_values.jsx",
-                                                            lineNumber: 74,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "relative w-full",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                className: "text-xl font-semibold relative after:content-[''] after:block after:w-full after:h-0.5 after:bg-white/30 after:mt-2",
-                                                                children: value.title
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/our_values.jsx",
-                                                                lineNumber: 76,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/our_values.jsx",
-                                                            lineNumber: 75,
-                                                            columnNumber: 19
+                                                            lineNumber: 76,
+                                                            columnNumber: 21
                                                         }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/our_values.jsx",
-                                                    lineNumber: 73,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "text-white/80 text-sm leading-relaxed",
-                                                    children: value.description
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/our_values.jsx",
-                                                    lineNumber: 81,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/our_values.jsx",
-                                            lineNumber: 72,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, index + 2, false, {
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/our_values.jsx",
+                                                        lineNumber: 75,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/our_values.jsx",
+                                                lineNumber: 73,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-white/80 text-sm leading-relaxed",
+                                                children: value.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/our_values.jsx",
+                                                lineNumber: 81,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/our_values.jsx",
-                                        lineNumber: 71,
-                                        columnNumber: 13
-                                    }, this))
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/our_values.jsx",
-                                lineNumber: 69,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 45,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/our_values.jsx",
-                lineNumber: 32,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-center mt-10 max-w-[350px] sm:max-w-[700px] md:max-w-[725px] lg:max-w-4xl xl:max-w-5xl mx-auto w-auto",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/image1.png",
-                        alt: "",
-                        className: "w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 92,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/image2.png",
-                        alt: "",
-                        className: "w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 97,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/image3.png",
-                        alt: "",
-                        className: "w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 102,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/image4.png",
-                        alt: "",
-                        className: "w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 107,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                        src: "/images/image5.png",
-                        alt: "",
-                        className: "w-15 sm:w-20 md:w-30 lg:w-40 xl:w-50 h-10 sm:h-15 md:h-15 lg:h-15 xl:h-15"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/our_values.jsx",
-                        lineNumber: 112,
-                        columnNumber: 7
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/our_values.jsx",
-                lineNumber: 91,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+                                        lineNumber: 72,
+                                        columnNumber: 15
+                                    }, this)
+                                }, index + 2, false, {
+                                    fileName: "[project]/src/components/our_values.jsx",
+                                    lineNumber: 71,
+                                    columnNumber: 13
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/our_values.jsx",
+                            lineNumber: 69,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/our_values.jsx",
+                    lineNumber: 45,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/our_values.jsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/our_values.jsx",
         lineNumber: 31,
         columnNumber: 5
