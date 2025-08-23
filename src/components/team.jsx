@@ -1,11 +1,11 @@
 export default function Team() {
   const members = [
-    { name: "GOVARDHAN", role: "Co-Founder \n Project Head \n \n \n", img: "/images/person.png" },
+    { name: "GOVARDHAN", role: "Co-Founder \n Project Head \n \n \n", img: "/images/govardhan.webp" },
     { name: "ABHIJITH", role: "Co-Founder \n Project Manager (Operations Lead) \n \n", img: "/images/person.png" },
-    { name: "ABHISHEK", role: "Co-Founder \n Design Head \n \n \n", img: "/images/person.png" },
+    { name: "ABHISHEK", role: "Co-Founder \n Design Head \n \n \n", img: "/images/abhishek.jpg" },
     { name: "SHUHAIB", role: "Founding Member \n Project Development Head \n \n \n", img: "/images/person.png" },
-    { name: "ANOOP", role: "Co-Founder \n Partner \n \n \n", img: "/images/person.png" },
-    { name: "SAJIN", role: "Co-Founder \n Partner \n \n \n", img: "/images/person.png" },
+    { name: "ANOOP", role: "Co-Founder \n Partner \n \n \n", img: "/images/annop.webp" },
+    { name: "SAJIN", role: "Co-Founder \n Partner \n \n \n", img: "/images/sajin.webp" },
     { name: "ABHIRAM", role: "Founding Member \n Designer \n \n \n", img: "/images/person.png" },
   ];
 

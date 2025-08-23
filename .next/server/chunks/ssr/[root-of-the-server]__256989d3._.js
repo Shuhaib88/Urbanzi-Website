@@ -450,7 +450,7 @@ function Team() {
         {
             name: "GOVARDHAN",
             role: "Co-Founder \n Project Head \n \n \n",
-            img: "/images/person.png"
+            img: "/images/govardhan.webp"
         },
         {
             name: "ABHIJITH",
@@ -460,7 +460,7 @@ function Team() {
         {
             name: "ABHISHEK",
             role: "Co-Founder \n Design Head \n \n \n",
-            img: "/images/person.png"
+            img: "/images/abhishek.jpg"
         },
         {
             name: "SHUHAIB",
@@ -470,12 +470,12 @@ function Team() {
         {
             name: "ANOOP",
             role: "Co-Founder \n Partner \n \n \n",
-            img: "/images/person.png"
+            img: "/images/annop.webp"
         },
         {
             name: "SAJIN",
             role: "Co-Founder \n Partner \n \n \n",
-            img: "/images/person.png"
+            img: "/images/sajin.webp"
         },
         {
             name: "ABHIRAM",
