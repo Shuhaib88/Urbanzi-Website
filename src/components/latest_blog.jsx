@@ -56,23 +56,60 @@ export default function LatestBlog() {
 
       {/* Categories */}
       <div className="relative inline-block mt-10 rounded-lg p-[1px] bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500">
-        <div className="px-4 py-1 bg-black/90 rounded-lg text-white">
-          <span className="text-white text-2xl font-medium px-4 py-2">Categories</span>
-          <button className="bg-white text-black text-sm font-medium px-4 py-2 rounded-full">
-            ALL
-          </button>
-          <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
-            Design Tips
-          </button>
-          <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
-            UI/UX
-          </button>
-          <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
-            Marketing
-          </button>
-          <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
-            Development
-          </button>
+        <div className="px-4 py-4 bg-black/90 rounded-lg text-white">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-0">
+            <span className="text-white text-2xl font-medium px-4 py-2 hidden sm:block">Categories</span>
+            
+            {/* Desktop layout - single row */}
+            <div className="hidden sm:flex sm:items-center">
+              <button className="bg-white text-black text-sm font-medium px-4 py-2 rounded-full">
+                ALL
+              </button>
+              <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                Design Tips
+              </button>
+              <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                UI/UX
+              </button>
+              <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                Marketing
+              </button>
+              <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                Development
+              </button>
+            </div>
+
+            {/* Mobile layout - multiple rows */}
+            <div className="flex flex-col gap-2 sm:hidden">
+              {/* First row - Categories and ALL button in same row */}
+              <div className="flex justify-between items-center">
+                <span className="text-white text-2xl font-medium px-4 py-2 sm:hidden">Categories</span>
+                <button className="bg-white text-black text-sm font-medium px-4 py-2 rounded-full">
+                  ALL
+                </button>
+              </div>
+              
+              {/* Second row - Design Tips and UI/UX */}
+              <div className="flex gap-2 justify-start pl-4">
+                <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                  Design Tips
+                </button>
+                <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                  UI/UX
+                </button>
+              </div>
+              
+              {/* Third row - Marketing and Development */}
+              <div className="flex gap-2 justify-start pl-4">
+                <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                  Marketing
+                </button>
+                <button className="text-gray-300 text-sm font-medium px-4 py-2 rounded-full hover:bg-gray-700 transition-colors">
+                  Development
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -82,7 +119,7 @@ export default function LatestBlog() {
           <div key={index} className="bg-gray-900 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
             <div className={`${post.cardBgColor} h-50 sm:h-60 md:h-60 lg:h-60 xl:h-70 relative p-6`}>
               <div className="absolute inset-0 p-0">
-                <img src={post.imageSrc} className="w-102 h-50 sm:h-60 md:h-60 lg:h-60 xl:h-70 object-cover" alt="" />
+                <img src={post.imageSrc} className="w-102 xl:w-110 h-50 sm:h-60 md:h-60 lg:h-60 xl:h-70 object-cover" alt="" />
               </div>
             </div>
             <div className="p-6">
