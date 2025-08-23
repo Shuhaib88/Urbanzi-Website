@@ -87,8 +87,8 @@ export default function ProjectAndCaseStudy() {
             <div className="absolute left-[35%] top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#FCCB90] via-[#ff99cc] to-[#D57EEB]"></div>
             
             {/* Left Side - Images */}
-            <div className="w-[35%] pr-4 flex flex-row  ">
-              <div className="flex-1 relative  rounded-lg overflow-hidden">
+            <div className="w-[35%] pr-4 flex flex-col sm:flex-row gap-2">
+              <div className="flex-1 relative rounded-lg overflow-hidden">
                 <img 
                   src={project.images[0]} 
                   alt="Project screenshot 1"
