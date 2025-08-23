@@ -1,6 +1,6 @@
 export default function BeingEnglandsTop() {
   return (
-    <div className="px-4 md:px-8 lg:px-20 pt-8 md:pt-16 lg:pt-20 max-w-[1500px] w-full mx-auto">
+    <div className="bg-black px-4 md:px-8 lg:px-20 pt-8 md:pt-16 lg:pt-20 max-w-[1500px] w-full mx-auto">
       {/* Header Section */}
       <div className="flex flex-wrap items-center gap-2 font-bold text-2xl sm:text-3xl lg:text-4xl">
         <div>
@@ -14,12 +14,13 @@ export default function BeingEnglandsTop() {
       {/* Content Section */}
       <div className="relative -mt-10">
         {/* Text Content */}
-        <div className="absolute text-[15px] sm:text-xl lg:text-2xl mb-8 lg:mb-0  z-10">
+        <div className="absolute text-[15px] sm:text-xl lg:text-2xl mb-8 lg:mb-0 z-10
+        max-w-[200px] sm:max-w-[1400px] md:max-w-[375px] lg:max-w-[500px] xl:max-w-[900px]">
           <p className="leading-relaxed mt-20">
-            At Urbanzi, we help businesses grow with innovative and <br/>
-            tailored digital solutions. From web development to branding, <br/>
-            we create seamless experiences that elevate your brand. <br/>
-            Let's bring your vision to life with creativity and technology. <br/>
+            At Urbanzi, we help businesses grow with innovative and
+            tailored digital solutions. From web development to branding
+            we create seamless experiences that elevate your brand
+            Let's bring your vision to life with creativity and technology.
           </p>
         </div>
 
@@ -34,7 +35,7 @@ export default function BeingEnglandsTop() {
       </div>
 
       {/* Buttons Section */}
-      <div className="flex flex-wrap mt-5 sm:-mt-15 md:-mt-15 lg:-mt-25 xl:-mt-50 gap-8 lg:gap-8 ">
+      <div className="flex flex-wrap mt-25 sm:-mt-15 md:-mt-15 lg:-mt-25 xl:-mt-50 gap-8 lg:gap-8 ">
         <button className="bg-white text-black px-6 py-3 lg:px-8 rounded-sm text-xs font-semibold uppercase hover:bg-gray-300 transition-colors">
           Let's Start
         </button>
@@ -44,7 +45,7 @@ export default function BeingEnglandsTop() {
       </div>
 
       {/* Large Text Section */}
-      <div className="mt-16 lg:mt-20 overflow-hidden">
+      <div className="mt-16 lg:mt-30 overflow-hidden">
         <div className="flex justify-center">
           <h1 className="opacity-25 text-4xl sm:text-6xl md:text-8xl lg:text-[170px] xl:text-[240px] font-extrabold bg-[linear-gradient(to_bottom,#D57EEB_50%,#FCCB90_50%)] bg-clip-text text-transparent leading-none text-center">
             URBANZI
